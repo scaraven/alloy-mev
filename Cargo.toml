@@ -17,7 +17,7 @@ default = ["reqwest"]
 reqwest = ["dep:reqwest", "dep:serde_json", "dep:tower"]
 
 [dependencies]
-alloy = { version = "0.5", features = [
+alloy = { version = "0.7.3", features = [
     "rpc",
     "rpc-client",
     "rpc-types-mev",
